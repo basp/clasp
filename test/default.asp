@@ -18,7 +18,7 @@ dim url: url = "http://localhost/api/json_object.html"
 set res = http_get((url), data)
 trace(url)
 
-'Invoke without parenthesis and `url` is passed by refeference
+'Invoke without parenthesis and `url` is passed by reference
 set res = http_get(url, data)
 trace(url)
 %>
