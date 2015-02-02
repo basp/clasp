@@ -1,8 +1,8 @@
+<!--#include file="includes/aspJSON1.17.asp" -->
+<!--#include file="includes/http.asp" -->
 <!doctype html>	
 <html>
 <body>
-<!--#include file="includes/aspJSON1.17.asp" -->
-<!--#include file="includes/http.asp" -->
 <%
 sub trace(s)
 	response.write "<pre>" & s & "</pre>"
