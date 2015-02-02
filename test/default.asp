@@ -12,11 +12,12 @@ set data = createobject("Scripting.Dictionary")
 data.add "foo", formatdatetime(now, vbshortdate)
 data.add "bar", 123
 
-'http://blogs.msdn.com/b/ericlippert/archive/2003/09/15/52996.aspx
+
 dim url: url = "http://localhost/api/json_object.html"
 set res = http_get((url), data)
 writeln(res.data("foo"))
 writeln(url)
+writeln("clasp")
 %>
 </body>
 </html>
